@@ -1,0 +1,3 @@
+@startuml Laba1
+A -> B : EtoDiaramma
+@enduml
