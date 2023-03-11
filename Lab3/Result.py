@@ -17,8 +17,9 @@ try:
         print(arr)
 
         newres = []
-
-        for i in range(len(arr)):
+        i = 0
+        while i < arr[0]:
+            i = i + 1
             newres.append(arr[1]*i + arr[2])
         print(newres)
     finally:
