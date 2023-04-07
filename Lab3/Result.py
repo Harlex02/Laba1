@@ -75,3 +75,5 @@ except FileNotFoundError:
     
 except:
     print("Ошибка при работе с файлом")
+
+#Готовая лабораторная
