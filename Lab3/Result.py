@@ -1,7 +1,7 @@
 import numpy
 import numpy as np
 try:
-    file1 = open("data/app.conf", "r")
+    file1 = open("Lab3/data/app.conf", "r")
     try:
         spisok = file1.readlines()
         celchisl = []
@@ -33,7 +33,7 @@ try:
     finally:
         file1.close()
 
-    with open("data/result.dat", "w") as file23:
+    with open("Lab3/data/result.dat", "w") as file23:
         file23.write(str(newres))
         file23.close()
 
