@@ -33,3 +33,4 @@ except FileNotFoundError:
     plt.title("График функции")
     plt.savefig('Lab4/График.svg')
     plt.show()
+#Готовый график
